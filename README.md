@@ -1,7 +1,9 @@
 # my_nix_dots
+
 These are the files associated with my NixOS configurations.
 
-For myself:
+# General info (for myself)
+
   1. GD Newgrounds songs are held in directory: ~/.local/share/Steam/steamapps/compatdata/322170/pfx/drive_c/users/steamuser/AppData/Local/GeometryDash/
 
   2. KDE Plasma theme contains:
