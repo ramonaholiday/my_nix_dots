@@ -9,7 +9,7 @@ These are the files associated with my NixOS configurations.
   2. KDE Plasma theme contains:
        - MS Windows 9x application style
        - Nilium Plasma style
-       - Plastik window decorations, with these titlebar buttons:
+       - Plastik window decorations, text aligned to left, with these titlebar buttons:
            LEFT: Window menu;
            RIGHT: Maximize, Minimize, Close (in this order).
        - Oxygen icons
