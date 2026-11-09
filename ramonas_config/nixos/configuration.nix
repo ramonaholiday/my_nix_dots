@@ -140,12 +140,13 @@
      gparted
      kdePackages.kdenlive
      kdePackages.kamoso
-     krita
+     #krita
      librewolf
      lmms
      pfetch
      qbittorrent
      vim
+     vlc
      wget
      wine
    ];
