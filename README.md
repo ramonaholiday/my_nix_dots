@@ -11,7 +11,7 @@ These are the files associated with my NixOS configurations.
        - Breeze Dark Plasma style
        - Plastik window decorations, text aligned to left, with these titlebar buttons:
            LEFT: Window menu;
-           RIGHT: Maximize, Minimize, Close (in this order).
+           RIGHT: Regular order of icons: Min, Max, Close
        - Oxygen icons
        - White Sur mouse cursor
        - Default (Ocean) system sounds
