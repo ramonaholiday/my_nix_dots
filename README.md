@@ -8,7 +8,7 @@ These are the files associated with my NixOS configurations.
 
   2. KDE Plasma theme contains:
        - MS Windows 9x application style
-       - Nilium Plasma style
+       - Breeze Dark Plasma style
        - Plastik window decorations, text aligned to left, with these titlebar buttons:
            LEFT: Window menu;
            RIGHT: Maximize, Minimize, Close (in this order).
@@ -17,9 +17,9 @@ These are the files associated with my NixOS configurations.
        - Default (Ocean) system sounds
        - No splash screen
 
-  3. My panel (size 46) contains:
+  3. Panel (size 46) contains:
        - Application launcher
-       - Icons-Only Task Manager, small spacing
+       - Icons-Only Task Manager, normal spacing
        - Always show clipboard, sound, Bluetooth, network
        - 7pts Noto Sans clock, date format "MMM. d, yyyy"
 
