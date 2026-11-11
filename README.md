@@ -7,12 +7,12 @@ These are the files associated with my NixOS configurations.
   1. GD Newgrounds songs are held in directory: ~/.local/share/Steam/steamapps/compatdata/322170/pfx/drive_c/users/steamuser/AppData/Local/GeometryDash/
 
   2. KDE Plasma theme contains:
-       - MS Windows 9x application style
        - Oxygen icons
        - White Sur mouse cursor
        - No splash screen
+       - Nordic Plasma theme
 
-  3. Panel (size 46) contains:
+  4. Panel (size 46) contains:
        - Application launcher
        - Icons-Only Task Manager, normal spacing
        - Always show clipboard, sound, Bluetooth, network
