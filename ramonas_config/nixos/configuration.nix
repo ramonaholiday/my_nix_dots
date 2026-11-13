@@ -46,6 +46,18 @@
     LC_TIME = "en_US.UTF-8";
   };
 
+  # Enable the GNOME Desktop Environment.
+  #services.displayManager.gdm.enable = true;
+  #services.desktopManager.gnome.enable = true;
+
+  # Enable the Cinnamon Desktop Environment.
+  # services.displayManager.lightdm.enable = true;
+  #  services.xserver.desktopManager.cinnamon.enable = true;
+  #  services.gnome.gnome-online-accounts.enable = true;
+  #  environment.cinnamon.excludePackages = [
+  #    pkgs.blueman
+  #  ];
+
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.plasma-login-manager.enable = true;
   services.desktopManager.plasma6.enable = true;
@@ -101,9 +113,7 @@
     isNormalUser = true;
     description = "Asus X515EA";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [
-    # thunderbird
-    ];
+    packages = with pkgs; [ ];
   };
 
   # Enable Thunderbird
@@ -129,6 +139,7 @@
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
     environment.systemPackages = with pkgs; [      
+     ardour
      cava
      cbonsai
      cowsay
@@ -140,11 +151,13 @@
      gparted
      kdePackages.kdenlive
      kdePackages.kamoso
-     #krita
+     krita
+     libreoffice
      librewolf
-     lmms
+     #lmms
      pfetch
      qbittorrent
+     rPackages.OpenStreetMap
      vim
      vlc
      wget
