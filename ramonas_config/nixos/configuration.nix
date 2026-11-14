@@ -155,10 +155,11 @@
      libreoffice
      librewolf
      #lmms
+     micro
      pfetch
      qbittorrent
      rPackages.OpenStreetMap
-     vim
+     #vim
      vlc
      wget
      wine
