@@ -163,6 +163,7 @@
      vlc
      wget
      wine
+     zulu27
    ];
 
   # Some programs need SUID wrappers, can be configured further or are
