@@ -25,9 +25,9 @@ Trash old package versions by executing:
 
 Rebuild by executing:
   - cd ~/ramonas_config
-  - sudo nixos-rebuild switch --flake .#nixos
+  - ./rebuild.nu
 
 Update packages by executing:
   - cd ~/ramonas_config
   - sudo nix flake update
-  - sudo nixos-rebuild switch --flake .#nixos
+  - ./rebuild.nu
