@@ -10,7 +10,7 @@ These are the files associated with my NixOS configurations.
        - Application menu
        - Icons-Only Task Manager, normal spacing
        - Always show clipboard, sound, Bluetooth, network
-       - 7pts Noto Sans clock, date format "MMM. d, yyyy"
+       - 7pts Unifont GNU clock, date format "MMM. d, yyyy"
 
 # Generation management
 
