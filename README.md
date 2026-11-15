@@ -7,7 +7,7 @@ These are the files associated with my NixOS configurations.
   1. GD Newgrounds songs are held in directory: ~/.local/share/Steam/steamapps/compatdata/322170/pfx/drive_c/users/steamuser/AppData/Local/GeometryDash/
 
   2. Panel (size 46) contains:
-       - Application launcher
+       - Application menu
        - Icons-Only Task Manager, normal spacing
        - Always show clipboard, sound, Bluetooth, network
        - 7pts Noto Sans clock, date format "MMM. d, yyyy"
