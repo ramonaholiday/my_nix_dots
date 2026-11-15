@@ -159,6 +159,7 @@
      pfetch
      qbittorrent
      rPackages.OpenStreetMap
+     vesktop
      #vim
      vlc
      wget
