@@ -156,8 +156,9 @@
      kdePackages.kdenlive    	
      krita
      libreoffice
-     qbittorrent
      librewolf
+     links2
+     qbittorrent
      #lmms
      micro
      pfetch
