@@ -113,7 +113,8 @@
     isNormalUser = true;
     description = "Asus X515EA";
     extraGroups = [ "networkmanager" "wheel" ];
-    packages = with pkgs; [ ];
+    packages = with pkgs; [
+    ];
   };
 
   # Enable Thunderbird
@@ -139,6 +140,7 @@
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
     environment.systemPackages = with pkgs; [      
+     adwsteamgtk
      ardour
      cava
      cbonsai
@@ -148,16 +150,17 @@
      gcc
      #gimp
      git
+     github-cli
      gparted
-     kdePackages.kdenlive
      kdePackages.kamoso
+     kdePackages.kdenlive    	
      krita
      libreoffice
+     qbittorrent
      librewolf
      #lmms
      micro
      pfetch
-     qbittorrent
      rPackages.OpenStreetMap
      vesktop
      #vim
