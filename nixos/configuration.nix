@@ -163,6 +163,8 @@
      micro
      pfetch
      rPackages.OpenStreetMap
+     supertux
+     supertuxkart
      vesktop
      #vim
      vlc
