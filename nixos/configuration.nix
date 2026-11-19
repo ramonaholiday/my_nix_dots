@@ -168,6 +168,7 @@
      vesktop
      #vim
      vlc
+     vmpk
      wget
      wine
      zulu27
