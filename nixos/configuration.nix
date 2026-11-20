@@ -140,6 +140,7 @@
      git
      github-cli
      gparted
+     i3
      kdePackages.kamoso
      kdePackages.kdenlive    	
      krita
@@ -160,6 +161,7 @@
      vmpk
      wget
      wine
+     xterm
      zulu27
    ];
 
