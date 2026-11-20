@@ -132,6 +132,7 @@
      ardour
      cava
      cbonsai
+     cmatrix
      cowsay
      extremetuxracer
      fastfetch
@@ -140,6 +141,7 @@
      git
      github-cli
      gparted
+     htop
      kdePackages.kamoso
      kdePackages.kdenlive    	
      krita
