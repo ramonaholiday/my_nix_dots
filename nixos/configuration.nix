@@ -138,7 +138,7 @@
      gcc
      #gimp
      git
-     #github-cli
+     github-cli
      gparted
      kdePackages.kamoso
      kdePackages.kdenlive    	
