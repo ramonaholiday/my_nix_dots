@@ -24,10 +24,10 @@ Trash old package versions by executing:
   - nix-collect-garbage -d
 
 Rebuild by executing:
-  - cd ~/ramonas_config
+  - cd ~/my_nix_dots
   - ./rebuild.nu
 
 Update packages by executing:
-  - cd ~/ramonas_config
+  - cd ~/my_nix_dots
   - sudo nix flake update
   - ./rebuild.nu
