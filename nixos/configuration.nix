@@ -47,12 +47,7 @@
   };
 
   # Enable the KDE Plasma Desktop Environment.
-  services.displayManager.sddm = {
-    enable = true;
-  
-    # Enables Wayland support
-    wayland.enable = true;
-  };
+  services.displayManager.plasma-login-manager.enable = true;
   services.desktopManager.plasma6.enable = true;
 
   # Configure keymap in X11
@@ -145,7 +140,6 @@
      git
      github-cli
      gparted
-     i3
      kdePackages.kamoso
      kdePackages.kdenlive    	
      krita
@@ -166,7 +160,6 @@
      vmpk
      wget
      wine
-     xterm
      zulu27
    ];
 
