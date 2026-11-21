@@ -53,6 +53,10 @@
   };
   services.desktopManager.plasma6.enable = true;
 
+  # Enable Qt theme
+  qt.enable = true;
+  qt.style = "adwaita";
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
