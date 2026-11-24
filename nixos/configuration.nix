@@ -53,10 +53,6 @@
   };
   services.desktopManager.plasma6.enable = true;
 
-  # Enable Qt theme
-  qt.enable = true;
-  qt.style = "adwaita";
-
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";
@@ -150,12 +146,14 @@
      github-cli
      gparted
      htop
+     jq
      kdePackages.kamoso
      kdePackages.kdenlive    	
      krita
      libreoffice
      librewolf
      links2
+     python3
      qbittorrent
      #lmms
      micro
@@ -164,6 +162,7 @@
      rpcs3
      supertux
      supertuxkart
+     unzip
      vesktop
      #vim
      vlc
