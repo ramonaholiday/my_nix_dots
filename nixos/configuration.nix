@@ -148,7 +148,8 @@
      htop
      jq
      kdePackages.kamoso
-     kdePackages.kdenlive    	
+     kdePackages.kdenlive
+     kitty
      krita
      libreoffice
      librewolf
