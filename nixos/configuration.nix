@@ -133,7 +133,6 @@
     environment.systemPackages = with pkgs; [      
      adwsteamgtk
      ardour
-     bella
      cava
      cbonsai
      cmatrix
