@@ -1,16 +1,14 @@
 # my_nix_dots
 
+# !!!IMPORTANT!!!
+Always remove the nixos/hardware-configuration.nix file before rebuilding on a new machine!
+
 These are the files associated with my NixOS configurations.
 
 # General info (for myself)
 
   1. GD Newgrounds songs are held in directory: ~/.local/share/Steam/steamapps/compatdata/322170/pfx/drive_c/users/steamuser/AppData/Local/GeometryDash/
-
-  2. Panel (size 46) contains:
-       - Application menu
-       - Icons-Only Task Manager, normal spacing
-       - Always show clipboard, sound, Bluetooth, network
-       - 7pts Unifont GNU clock, date format "MMM. d, yyyy"
+  2. The GD executable is held in directory: ~/.local/share/Steam/steamapps/common/Geometry Dash/
 
 # Generation management
 
