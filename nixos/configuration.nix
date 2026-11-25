@@ -145,6 +145,7 @@
      git
      github-cli
      gparted
+     gpick
      htop
      jq
      kdePackages.kamoso
