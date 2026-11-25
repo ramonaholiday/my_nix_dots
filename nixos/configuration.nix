@@ -133,6 +133,7 @@
     environment.systemPackages = with pkgs; [      
      adwsteamgtk
      ardour
+     bella
      cava
      cbonsai
      cmatrix
@@ -145,7 +146,6 @@
      git
      github-cli
      gparted
-     gpick
      htop
      jq
      kdePackages.kamoso
