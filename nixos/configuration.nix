@@ -149,6 +149,7 @@
      jq
      kdePackages.kamoso
      kdePackages.kdenlive
+     kdePackages.kmines
      kitty
      krita
      libreoffice
@@ -163,6 +164,7 @@
      rpcs3
      supertux
      supertuxkart
+     tty-clock
      unzip
      vesktop
      #vim

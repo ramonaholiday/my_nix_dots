@@ -41,5 +41,6 @@ def "main" [
   }
   if (($commit_message | str length) > 0) {
     git commit -am $commit_message
+    git push
   }
 }
