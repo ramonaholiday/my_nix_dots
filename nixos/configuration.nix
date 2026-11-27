@@ -49,6 +49,7 @@
   # Enable the KDE Plasma Desktop Environment.
   services.displayManager.sddm = {
   enable = true;
+  theme = "catppuccin-mocha-mauve";
   wayland.enable = true;
   };
   services.desktopManager.plasma6.enable = true;
@@ -134,6 +135,10 @@
      adwsteamgtk
      ardour
      cava
+     (pkgs.catppuccin-sddm.override {
+           flavor = "mocha";
+           accent = "mauve";
+         })
      cbonsai
      cmatrix
      cowsay
