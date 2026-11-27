@@ -172,7 +172,7 @@
      tty-clock
      unzip
      vesktop
-     #vim
+     vim
      vlc
      vmpk
      wget
