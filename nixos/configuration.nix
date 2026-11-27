@@ -165,7 +165,6 @@
      #lmms
      micro
      pfetch
-     rPackages.OpenStreetMap
      rpcs3
      supertux
      supertuxkart

@@ -31,7 +31,8 @@ def "main" [
       $rebuild_nix = true
   }
   if $rebuild_nix {
-      sudo nixos-rebuild switch --flake .
+    sudo nix flake update  
+    sudo nixos-rebuild switch --flake .
   }
   mut commit_message = ""
   if $rebuild_nix {
@@ -41,6 +42,6 @@ def "main" [
   }
   if (($commit_message | str length) > 0) {
     git commit -am $commit_message
-    git push
+    git push -f
   }
 }
