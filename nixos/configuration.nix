@@ -151,6 +151,7 @@
      github-cli
      gparted
      htop
+     hyfetch
      jq
      kdePackages.kamoso
      kdePackages.kdenlive
